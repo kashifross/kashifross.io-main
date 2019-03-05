@@ -11,5 +11,57 @@ html {
 body {
   box-sizing: border-box; }
 
+body {
+  color: #a8a8a8;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.heading-primary {
+  color: #e7f1f9;
+  text-transform: uppercase; }
+  .heading-primary--main {
+    display: block;
+    font-size: 8rem;
+    font-weight: 500;
+    letter-spacing: 1.2rem;
+    line-height: 0.8; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 1.05rem;
+    padding-bottom: 30rem; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
 .section-header {
-  background-color: #ececec; }
+  background-color: #ececec;
+  position: relative; }
+
+.header {
+  background-color: rgba(93, 162, 213, 0.15);
+  height: 100vh;
+  position: relative; }
+  .header__logo-box {
+    position: absolute;
+    top: 2rem;
+    left: 4rem; }
+  .header__logo {
+    height: 10rem; }
+  .header__text-box {
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }

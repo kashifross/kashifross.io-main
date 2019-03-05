@@ -1,3 +1,28 @@
 .section-header {
   background-color: $color-gray-light;
+  position: relative;
+}
+
+.header {
+  background-color: rgba($color-primary, .15);
+  height: 100vh;
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 10rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 }
