@@ -1,0 +1,22 @@
+.card {
+  perspective: 200rem;
+  -moz-perspective: 200rem;
+  position: relative;
+  height: 50rem;
+
+  &__side {
+    @include absTop;
+    height: 50rem;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 2rem 4rem rgba($color-gray-medium, .2);
+
+    transition: all .7s ease-in-out;
+
+    &--front {
+      background-color: $color-white;
+    }
+  }
+}
