@@ -23,7 +23,7 @@
       transform: rotateY(180deg);
 
       &-1 {
-        background-image: linear-gradient(to bottom, $color-primary, $color-primary-medium);
+        background-image: linear-gradient(to top, $color-primary, $color-primary-dark);
       }
     }
   }
