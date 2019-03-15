@@ -6,9 +6,17 @@
   color: $color-gray-light;
   position: relative;
 
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
+
   &__portrait-box {
     text-align: center;
     margin-bottom: 8rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 6rem;
+    }
   }
 
   &__portrait {
@@ -24,6 +32,11 @@
     border-top: 1px solid $color-gray-light;
     padding: 2rem 0;
     display: inline-block;
+
+    @include respond(tab-port) {
+      width: 100%;
+      text-align: center;
+    }
   }
 
   &__list {
@@ -63,5 +76,10 @@
     width: 60%;
     float: right;
     display: inline-block;
+
+    @include respond(tab-port) {
+      width: 100%;
+      float: none;
+    }
   }
 }

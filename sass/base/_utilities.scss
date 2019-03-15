@@ -1,8 +1,36 @@
-.u-center-text { text-align: center !important; }
+.u-center-text { 
+  text-align: center !important; 
+}
 
-.u-margin-bottom-sm { margin-bottom: 1.4rem !important; }
-.u-margin-bottom-md { margin-bottom: 4rem !important; }
-.u-margin-bottom-lg { margin-bottom: 6.5rem !important; }
+.u-center-div { 
+  margin-left: auto !important; 
+  margin-right: auto !important; 
+}
 
-.u-margin-top-lg { margin-top: 8rem !important; }
-.u-margin-top-xl { margin-top: 10rem !important; }
+.u-margin-bottom-sm { 
+  margin-bottom: 1.4rem !important; 
+}
+
+.u-margin-bottom-md { 
+  margin-bottom: 4rem !important; 
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem !important;
+  }
+}
+
+.u-margin-bottom-lg { 
+  margin-bottom: 6.5rem !important; 
+
+  @include respond(tab-port) {
+    margin-bottom: 4.5rem !important;
+  }
+}
+
+.u-margin-top-lg { 
+  margin-top: 8rem !important; 
+}
+
+.u-margin-top-xl { 
+  margin-top: 10rem !important; 
+}
