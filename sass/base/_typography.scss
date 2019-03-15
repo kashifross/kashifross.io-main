@@ -20,6 +20,10 @@ body {
       letter-spacing: 1rem;
       font-size: 5rem;
     }
+
+    @include respond(tab-port) {
+      color: $color-primary;
+    }
   }
 
   &--sub {
@@ -34,7 +38,7 @@ body {
       font-size: .9rem;
       padding-bottom: 2rem;
       letter-spacing: .5rem;
-
+      color: $color-primary;
     }
   }
 }

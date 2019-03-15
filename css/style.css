@@ -39,6 +39,9 @@ body {
       .heading-primary--main {
         letter-spacing: 1rem;
         font-size: 5rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .heading-primary--main {
+        color: #5da2d5; } }
   .heading-primary--sub {
     display: block;
     font-size: 2.5rem;
@@ -50,7 +53,8 @@ body {
         letter-spacing: 1rem;
         font-size: .9rem;
         padding-bottom: 2rem;
-        letter-spacing: .5rem; } }
+        letter-spacing: .5rem;
+        color: #5da2d5; } }
 
 .heading-secondary {
   font-size: 5.5rem;
