@@ -25,4 +25,8 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  @include respond(tab-port) {
+    background-color: $color-primary-light;
+  }
 }
